@@ -1,0 +1,20 @@
+npm i express express-graphql graphql lodash
+
+http://localhost:4800/graphql?query=%7B%0A%20%20user(id%3A%2223%22)%7B%0A%20%20%20%20firstName%2C%0A%20%20%20%20age%0A%20%20%7D%0A%7D
+
+{
+  user(id:"23"){
+    firstName,
+    age
+  }
+}
+
+
+{
+  "data": {
+    "user": {
+      "firstName": "Bill",
+      "age": 20
+    }
+  }
+}

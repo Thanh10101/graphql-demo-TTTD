@@ -1,0 +1,23 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "this is api with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql"
+  ],
+  "author": "developerfunnel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.7.0",
+    "lodash": "^4.17.21"
+  }
+}
